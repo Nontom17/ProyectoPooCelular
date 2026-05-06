@@ -17,7 +17,37 @@ public class Celular {
     }
 
 
+        public String getMarca(){
+            return this.marca;
+        }
+        public String getModelo(){
+            return this.modelo;
+        }
+        public String getRam(){
+            return this.ram;
+        }
+        public String getMemoria(){
+         return this.memoria;
+        }
+        public String getConectividad(){
+         return this.conectividad;
+        }
 
+        public void setMarca(String marca){
+            this.marca = marca;
+        }
+        public void setModelo(String modelo){
+        this.modelo = modelo;
+        }
+        public void setMemoria(String memoria){
+        this.memoria = memoria;
+        }
+        public void setRam(String ram){
+        this.ram = ram;
+        }
+        public void setConectividad(String conectividad){
+        this.conectividad = conectividad;
+        }
 
 
 
