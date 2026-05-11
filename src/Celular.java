@@ -7,7 +7,7 @@ public class Celular {
     private String ram;
     private String conectividad;
 
-    public Celular(String marca, String modelo, String memoria, String ram, String conectividad){
+    public Celular(String marca, String modelo, String memoria, String ram, String conectividad) {
         this.marca = marca;
         this.modelo = modelo;
         this.memoria = memoria;
@@ -17,37 +17,61 @@ public class Celular {
     }
 
 
-        public String getMarca(){
-            return this.marca;
-        }
-        public String getModelo(){
-            return this.modelo;
-        }
-        public String getRam(){
-            return this.ram;
-        }
-        public String getMemoria(){
-         return this.memoria;
-        }
-        public String getConectividad(){
-         return this.conectividad;
-        }
+    public String getMarca() {
+        return this.marca;
+    }
 
-        public void setMarca(String marca){
-            this.marca = marca;
-        }
-        public void setModelo(String modelo){
+    public String getModelo() {
+        return this.modelo;
+    }
+
+    public String getRam() {
+        return this.ram;
+    }
+
+    public String getMemoria() {
+        return this.memoria;
+    }
+
+    public String getConectividad() {
+        return this.conectividad;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public void setModelo(String modelo) {
         this.modelo = modelo;
-        }
-        public void setMemoria(String memoria){
+    }
+
+    public void setMemoria(String memoria) {
         this.memoria = memoria;
-        }
-        public void setRam(String ram){
+    }
+
+    public void setRam(String ram) {
         this.ram = ram;
-        }
-        public void setConectividad(String conectividad){
+    }
+
+    public void setConectividad(String conectividad) {
         this.conectividad = conectividad;
-        }
+    }
+//Metodos
+    public String mostrarinformacion() {
+        return "Marca: " + this.marca + "\nModelo: " + this.modelo + "\nMemoria: " + this.memoria + "\nRam: " + this.ram + "\nConectividad: " + this.conectividad;
+    }
+
+    public String llamar(String contacto){
+        return "LLamando a "+ contacto;
+    }
+
+    public String enviarmensaje(String contacto, String mensaje){
+        return "Mensaje: " +contacto+mensaje+"\n Mensaje enviado!";
+    }
+
+
+
+
 
 
 

@@ -17,6 +17,12 @@ public class Main {
         System.out.println("\nNuevo Modelo");
         System.out.println(celular1.getModelo());
 
+        System.out.println("==========================");
+
+
+        System.out.println(celular1.mostrarinformacion());
+        System.out.println(celular2.llamar("Juan"));
+        System.out.println(celular2.enviarmensaje("Juan ","Hola Juan"));
 
 
 
